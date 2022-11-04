@@ -11,9 +11,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : 毎日買い物リスト                                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : OneMoreList                                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 毎日買い物リスト - 家族と共有できるショッピングリスト
+app_description                           : OneMoreList - Shopping list app that can be shared with family and friends
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -35,28 +35,28 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 家族や友達と買い物リストを共有OK
-    description                           : 共有先にリスト内容の更新がリアルタイムで反映される
+  - title                                 : Share with your family and friends
+    description                           : The list content is updated in real time on the shared destination.
     fontawesome_icon_name                 : magic
     
-  - title                                 : 入力自動補完機能でお手軽入力
-    description                           : 入力した文字列に一致する商品名を自動で補完してくれる
+  - title                                 : Input auto-completion
+    description                           : It automatically completes the product name that matches the entered string.
     fontawesome_icon_name                 : heartbeat
   
-  - title                                 : 金額も管理可能
-    description                           : 数量と金額の合計金額が自動で計算される
+  - title                                 : Automatic synchronization
+    description                           : The content of the list is automatically synchronized between iPhones / iPads / M1 Macs with the same Apple ID.
     fontawesome_icon_name                 : sync
 
-  - title                                 : ローカル ファースト
-    description                           : データはすべてローカルに優先して保存されます。ネットワークに接続されていなくても、リストの内容を確認したり、編集したりできます。
+  - title                                 : Local first
+    description                           : All data is saved locally first. Even if you are not connected to the network, you can check or edit the list content.
     fontawesome_icon_name                 : bell
 
-  - title                                 : セキュリティ
-    description                           : データは自分のものです。たとえ開発者であっても、データを閲覧したり、編集したりすることはできません。
+  - title                                 : Security
+    description                           : The data is yours. Even if you are a developer, you cannot view or edit the data.
     fontawesome_icon_name                 : star
 
-  - title                                 : 登録不要
-    description                           : AppleIDアカウントを持っていれば、ログイン不要で使えます。
+  - title                                 : No login required
+    description                           : If you have an AppleID account, you can use it without logging in.
     fontawesome_icon_name                 : adjust
 
 
